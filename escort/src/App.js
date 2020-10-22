@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
@@ -11,6 +10,7 @@ function App() {
     <div className="App">
     <Router>
       <Navigation />
+      <p>Hola mundo</p>
       <div className="container-routes">
         <Route path="/SignUp" component={SignUp} />
       </div>
