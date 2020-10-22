@@ -10,8 +10,12 @@ function App() {
   return (
     <div className="App">
     <Router>
-      <Navigation />
-      <Banner />
+      <div className="barra">
+        <Navigation />
+      </div>
+        <Banner />
+      <div>
+      </div>
       <div className="container-routes">
         <Route path="/SignUp" component={SignUp} />
       </div>

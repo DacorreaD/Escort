@@ -32,7 +32,7 @@ const banner2 = () => (
       <div class="carousel-item ">
         <img
           class="d-block w-100 imagenesBanner"
-          src="https://wellaggio.com/wp-content/uploads/2018/06/Wellaggio-diseno-web-valencia-Co%CC%81mo-disen%CC%83ar-la-pa%CC%81gina-%E2%80%9Csobre-nosotros%E2%80%9D-en-la-web-de-mi-empresa-480x270.jpg"
+          src="https://vilmanunez.com/wp-content/uploads/2018/07/como-hacer-un-banner.png"
           alt="Second slide"
         ></img>
         <div class="carousel-caption d-none d-md-block">
@@ -44,11 +44,11 @@ const banner2 = () => (
       </div>
       <div class="carousel-item">
         <img
-          class="d-block w-100 imagenesBanner"
-          src="../src/imagenes/quienes-somos1.png"
+          className="d-block w-100 imagenesBanner"
+          src="https://cdn.digitalmenta.com/wp-content/uploads/2018/07/1.1.T%C3%ADtulo-II.jpg"
           alt="Third slide"
         ></img>
-        <div class="carousel-caption d-none d-md-block">
+        <div className="carousel-caption d-none d-md-block">
           <h1>Que Queremos Llegar Hacer</h1>
           <button type="button" class="btn btn-outline-info botonBanner">
             Concoer mas...
